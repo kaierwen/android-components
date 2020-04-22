@@ -1,4 +1,4 @@
-package github.kaierwen.android.components.demos;
+package github.kaierwen.android.components.demos.activity;
 
 import android.app.Activity;
 import android.content.Intent;

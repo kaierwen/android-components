@@ -3,10 +3,14 @@
     package="github.kaierwen.android.components">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application>
+
         <activity
             android:name=".ui.activity.PhotoViewerActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
+            android:exported="false"
             android:theme="@style/FullscreenTheme" />
     </application>
 
