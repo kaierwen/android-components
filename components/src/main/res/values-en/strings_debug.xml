@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  debug模块文本  -->
+    <string name="debug_app_name">mydebug</string>
+    <string name="debug_built_time">Built time</string>
+    <string name="debug_built_time_beijing">GMT+8:00</string>
+    <string name="debug_package">Package</string>
+    <string name="debug_version_name">Version name</string>
+    <string name="debug_version_code">Version code</string>
+    <string name="debug_app_info">App Info</string>
+    <string name="debug_screen_shot">Screenshot</string>
+    <string name="debug_force_crash">Force crash</string>
+    <string name="debug_show_grid">Show grids</string>
+    <string name="debug_show_bounds">Show bounds</string>
+    <string name="debug_environment_h5">Switch h5 address</string>
+    <string name="debug_environment_api">Api addr</string>
+    <string name="debug_device_info">Device information</string>
+    <string name="debug_device_manufacturer">Manufacturer</string>
+    <string name="debug_device_model">Model</string>
+    <string name="debug_device_resolution">Screen</string>
+    <string name="debug_device_android_sdk">Android Version</string>
+    <string name="debug_set_success">"Set success, restart take affect "</string>
+</resources>
