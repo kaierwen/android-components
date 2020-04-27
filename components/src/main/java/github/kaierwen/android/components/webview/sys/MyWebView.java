@@ -1,4 +1,4 @@
-package github.kaierwen.android.components.webview;
+package github.kaierwen.android.components.webview.sys;
 
 import android.content.Context;
 import android.net.Uri;
@@ -7,11 +7,10 @@ import android.util.AttributeSet;
 import android.view.inputmethod.BaseInputConnection;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
-
-import com.tencent.smtt.sdk.ValueCallback;
-import com.tencent.smtt.sdk.WebChromeClient;
-import com.tencent.smtt.sdk.WebSettings;
-import com.tencent.smtt.sdk.WebView;
+import android.webkit.ValueCallback;
+import android.webkit.WebChromeClient;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
 /**
  * {@link WebView}封装
@@ -47,13 +46,6 @@ public class MyWebView extends WebView {
         setWebViewClient(mWbClient);
         mChromeClient = new MyChromeClient();
         setWebChromeClient(mChromeClient);
-
-        //隐藏滚动条
-        //https://blog.csdn.net/qq_26914291/article/details/82999081
-        if (getX5WebViewExtension() != null) {
-            getX5WebViewExtension().setHorizontalScrollBarEnabled(false);
-            getX5WebViewExtension().setVerticalScrollBarEnabled(false);
-        }
     }
 
     private void webViewSetting(Context context) {

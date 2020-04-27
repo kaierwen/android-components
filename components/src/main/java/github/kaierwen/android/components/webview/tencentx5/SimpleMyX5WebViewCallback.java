@@ -1,4 +1,4 @@
-package github.kaierwen.android.components.webview;
+package github.kaierwen.android.components.webview.tencentx5;
 
 import android.net.Uri;
 
@@ -10,7 +10,7 @@ import com.tencent.smtt.sdk.WebView;
  * @author kaiyuan.zhang
  * @since 8/29/2019
  */
-public class SimpleMyWebViewCallback implements MyWebView.Callback {
+public class SimpleMyX5WebViewCallback implements MyX5WebView.Callback {
 
     @Override
     public void onPageLoadFinish(WebView view, String url) {

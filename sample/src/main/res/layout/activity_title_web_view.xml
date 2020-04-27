@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".activity.TitleWebViewActivity">
 
-    <github.kaierwen.android.components.webview.MyWebView
+    <github.kaierwen.android.components.webview.tencentx5.MyX5WebView
         android:id="@+id/myWebView"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

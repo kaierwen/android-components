@@ -1,4 +1,4 @@
-package github.kaierwen.android.components.webview;
+package github.kaierwen.android.components.webview.tencentx5;
 
 import android.net.Uri;
 
@@ -10,10 +10,10 @@ import com.tencent.smtt.sdk.WebView;
  * @author kaiyuan.zhang
  * @since 2019/5/27
  */
-public class MyChromeClient extends WebChromeClient {
+public class MyX5ChromeClient extends WebChromeClient {
 
-    private MyWebView.Callback mCallback;
-    public void setCallback(MyWebView.Callback callback) {
+    private MyX5WebView.Callback mCallback;
+    public void setCallback(MyX5WebView.Callback callback) {
         mCallback = callback;
     }
 

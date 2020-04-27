@@ -1,18 +1,17 @@
-package github.kaierwen.android.components.webview;
+package github.kaierwen.android.components.webview.sys;
 
 import android.annotation.TargetApi;
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Build;
 import android.text.TextUtils;
+import android.webkit.ValueCallback;
+import android.webkit.WebResourceRequest;
+import android.webkit.WebResourceResponse;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 import androidx.annotation.Nullable;
-
-import com.tencent.smtt.export.external.interfaces.WebResourceRequest;
-import com.tencent.smtt.export.external.interfaces.WebResourceResponse;
-import com.tencent.smtt.sdk.ValueCallback;
-import com.tencent.smtt.sdk.WebView;
-import com.tencent.smtt.sdk.WebViewClient;
 
 /**
  * @author kaiyuan.zhang
