@@ -1,10 +1,9 @@
 package github.kaierwen.android.components.webview.sys;
 
 import android.net.Uri;
-
-import com.tencent.smtt.sdk.ValueCallback;
-import com.tencent.smtt.sdk.WebChromeClient;
-import com.tencent.smtt.sdk.WebView;
+import android.webkit.ValueCallback;
+import android.webkit.WebChromeClient;
+import android.webkit.WebView;
 
 /**
  * @author kaiyuan.zhang
